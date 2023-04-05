@@ -1,0 +1,29 @@
+.certificates-container{
+    /* height: 500rem; */
+    padding: 0;
+}
+.certificates-details {
+    background-color: #12595f;
+    height: 40rem;
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.certificate-section {
+    background: linear-gradient(to bottom right, #0b3538, #176d75);
+    margin: 2rem 10rem auto 10rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 3px #b8b8b8;
+}
+.certificate-section:hover {
+    background: linear-gradient(to bottom right, #072325, #12565c);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px #dbdbdb;
+}
+
+.certificate-link{
+    height: 7rem;
+    padding: 2rem;
+}

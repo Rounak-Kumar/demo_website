@@ -1,0 +1,60 @@
+.project-top-container {
+    background-color: #12595f;
+    height: 1500px;
+    margin-top: 50px;
+}
+
+.h2-project {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.skill-icon {
+    width: 4rem;
+}
+
+.project-img {
+    width: 30%;
+}
+
+.source-code {
+    width: 2.5rem;
+    padding-left: 1rem;
+}
+
+.project-col{
+    padding-bottom: 2rem;
+}
+
+.project-section {
+    background: linear-gradient(to bottom right, #0b3538, #176d75);
+    margin: auto 2rem auto 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 3px #b8b8b8;
+}
+
+.project-section:hover {
+    background: linear-gradient(to bottom right, #072325, #12565c);
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 5px #dbdbdb;
+}
+
+.project-section h3 {
+    text-align: center;
+}
+
+.project-section h5 {
+    text-align: justify;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+/************* Media **************/
+
+@media (max-width:767px) {
+    .project-top-container {
+        height: 2000px;
+    }
+}

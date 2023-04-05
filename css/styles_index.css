@@ -1,0 +1,120 @@
+.top-container {
+    background-color: #0d3f44;
+    padding-top: 5%;
+    margin-top: 4%;
+}
+
+ 
+
+.middle-container {
+    background-color: #fff;
+}
+.middle-container h2, .middle-container h3, .middle-container p {
+    color: #092e31;
+}
+
+.bottom-container {
+    background-color: #0d3f44;
+    margin: 0;
+    padding-top: 2%;
+}
+
+.big-heading{
+    color: #fff;
+    margin: 0 auto 0 auto;
+    font-family: 'Alkatra', cursive;
+    font-size: 5rem;
+}
+
+.profile_long {
+    height: 100%;
+}
+
+.introduction {
+    padding-top: 15%;
+}
+
+.rpa-icon {
+    width: 80%;
+}
+
+.about {
+    padding-top: 10%;
+    text-align: justify;
+}
+
+.my-skills {
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.skill-description {
+    text-align: justify;
+}
+
+.skills {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.skill-icon {
+    width: 70%;
+}
+
+.contact-me {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.btn {
+    background-image: linear-gradient(to bottom, #0d3f44, #12595f);
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 0 auto 0 auto;
+    border-color: #12595f;
+}
+
+.btn:hover {
+    background-image: linear-gradient(to bottom, #072629, #14626b);
+    text-decoration: none;
+    border-color: #12595f;
+}
+
+.material-symbols-outlined {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.footer-link {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    width: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.copyright {
+    padding-bottom: 2rem;
+}
+
+
+
+
+/************* Media **************/
+
+@media (max-width:767px) {
+    .rpa-icon {
+        width: 20%;
+    }
+
+    .skill-icon {
+        width: 10%;
+    }
+}
